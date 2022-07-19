@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/84004ed0bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blastboi</title>
+  </head>
+  <body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <!-- HEADER -->
+    <div id="header" class="flex p-4">
+      <div id="logo" class="w-20">
+        <img
+          class="rounded-full"
+          src="./img/BBzoom.png"
+          alt="logo"
+          id="logo-img"
+        />
+      </div>
+      <div id="list-group" class="self-center grow">
+        <ul
+          class="lg:flex justify-start basis-56 items-center text-2xl sm:hidden"
+        >
+          <li
+            class="mx-20 font-medium px-3 py-2 text-slate-800 rounded-lg hover:bg-slate-100 hover:text-slate-90"
+          >
+            <a href="#">Home</a>
+          </li>
+
+          <li
+            class="mx-20 font-medium px-3 py-2 text-slate-800 rounded-lg hover:bg-slate-100 hover:text-slate-90"
+          >
+            <a href="#">Music</a>
+          </li>
+          <li
+            class="mx-20 font-medium px-3 py-2 text-slate-800 rounded-lg hover:bg-slate-100 hover:text-slate-90"
+          >
+            <a href="#">About Me</a>
+          </li>
+          <li
+            class="mx-20 font-medium px-3 py-2 text-slate-800 rounded-lg hover:bg-slate-100 hover:text-slate-90"
+          >
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div
+        id="top-cta"
+        class="lg:block self-center bg-indigo-500 p-2 rounded-md hover:bg-blue-700 sm:hidden"
+      >
+        <a href="https://www.youtube.com/channel/UCG1cKlJ-sTw6TbwF1PjpQpQ"
+          >LISTEN NOW!</a
+        >
+      </div>
+
+      <div class="lg:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <div id="space"></div>
+
+    <!-- Card Content -->
+    <div id="content" class="flex justify-around py-20">
+      <div class="w-96">
+        <img
+          class="rounded-lg"
+          src="./img/my_image.jpg"
+          alt="profile"
+          id="profile-img"
+        />
+      </div>
+
+      <div id="profile-card" class="flex flex-col w-96 self-center">
+        <h1 class="text-3xl pb-1">I'm Akash aka BLASTBOI🎵</h1>
+        <h2 class="text-2xl pb-1">Music producer from India</h2>
+
+        <p class="text-xl pb-1">
+          I've been in music production for a year now.I mainly create
+          <b>EDM</b> musics .Currently working on various interesting projects.
+          Do check out my <b>youtube</b> channel.
+        </p>
+
+        <div class="pt-2">
+          <a
+            class="bg-indigo-500 p-2 rounded-md hover:bg-blue-700"
+            href="https://www.youtube.com/channel/UCG1cKlJ-sTw6TbwF1PjpQpQ"
+            >LISTEN NOW!</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- My-Music -->
+    <div id="new-music" class="bg-purple-400 flex flex-col items-center py-10">
+      <div id="blink" class="text-center text-5xl p-2 pb-8">
+        <span>Out Now!</span>
+      </div>
+
+      <iframe
+        class="p-2 w-[60rem] h-[32rem]"
+        id="iframe-music"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Wt6GVSXU9i8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+
+      <div id="music-card" class="w-5/6 text-center p-2">
+        <h2 class="text-2xl pb-2 font-semibold">
+          KGF BGM x AGILAM NEE - BLASTBOI Remix
+        </h2>
+        <p class="text-xl pb-2">
+          Created a remix on a blockbuster movie <b>KGF</b> composed by
+          <b>Ravi Basur</b>.A combination of <b>future bass</b> and
+          <b>hardstyle</b> is given in this mix
+        </p>
+      </div>
+    </div>
+
+    <!-- My own pro Other Music / Mix -->
+    <div id="other-music" class="py-10">
+      <div id="latest-music" class="text-center text-5xl p-2">
+        <span>Latest Releases</span>
+      </div>
+      <div class="flex justify-evenly flex-wrap py-10">
+        <div class="songs m-4">
+          <iframe
+            class="w-80 h-80"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/896794171&color=%233f4e4f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #3f4e4f;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          ></div>
+
+          <p>Blastboi - Narali Pournima (ft.Shubhagi</p>
+        </div>
+
+        <div class="songs m-4">
+          <iframe
+            class="w-80 h-80"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1300950322&color=%233f4e4f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #3f4e4f;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          ></div>
+
+          <p>Blastboi - Soul Searching (Official Music)</p>
+        </div>
+
+        <div class="songs m-4">
+          <iframe
+            class="w-80 h-80"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/896795233&color=%233f4e4f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #3f4e4f;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          ></div>
+
+          <p>Blastboi - Tonight (Official Music)</p>
+        </div>
+
+        <div class="songs m-4">
+          <iframe
+            class="w-80 h-80"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/896804530&color=%233f4e4f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #3f4e4f;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          ></div>
+
+          <p>Blastboi - Errors (Official Music)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dj-Mix -->
+    <div id="dj-mix">
+      <div id="latest-dj-mix" class="text-center text-5xl p-2">
+        <span>Latest DjMix EPs</span>
+      </div>
+
+      <div id="div-mix" class="flex flex justify-evenly flex-wrap py-10 m-6">
+        <div class="mix">
+          <iframe
+            class="w-[40rem]"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fakash-nadar%2Fdirty-playlist-03%2F"
+            frameborder="0"
+          ></iframe>
+        </div>
+
+        <div class="mix">
+          <iframe
+            class="w-[40rem]"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fakash-nadar%2Fdirty-playlist-02%2F"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div id="space2"></div>
+    <!-- Repeat Cta -->
+    <div id="another-cta" class="bg-purple-400 text-center py-10">
+      <h1 class="text-3xl">What are you waiting for ?</h1>
+      <h2 class="text-2xl pt-5">
+        If you really liked my music or you want to support do like, share and
+        subscribe
+      </h2>
+      <div class="p-2 pt-5">
+        <a
+          id="r-cta"
+          class="bg-indigo-500 p-2 rounded-md m-3 hover:bg-blue-700"
+          href="https://www.youtube.com/channel/UCG1cKlJ-sTw6TbwF1PjpQpQ"
+          >LISTEN NOW!</a
+        >
+      </div>
+    </div>
+
+    <div id="footer" class="flex flex-col py-10 text-lg">
+      <div class="flex justify-evenly">
+        <div class="col flex flex-col text-center">
+          <h3 class="m-2">BLASTBOI PRODUCTION</h3>
+          <a class="hover:text-white" href="#">About</a>
+          <a class="hover:text-white" href="#">Music</a>
+          <a class="hover:text-white" href="#">Contact</a>
+          <a class="hover:text-white" href="#">Home</a>
+        </div>
+
+        <div class="col flex flex-col text-center">
+          <h3 class="text-xl font-medium text-slate-700">NEWSLETTER</h3>
+          <form class="flex flex-col">
+            <input
+              class="m-6 peer h-6 p-2 h-10 rounded-lg"
+              type="email"
+              placeholder="Your Email Adress"
+              required
+            />
+            <div>
+              <button
+                class="text-sm bg-violet-500 p-2 rounded-full hover:bg-violet-600"
+                type="submit"
+              >
+                SUBSCRIBE NOW
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="col-3" class="text-center">
+        <h3 class="py-5">CONTACT</h3>
+        <div id="social-icons" class="text-2xl">
+          <i
+            class="fa-brands fa-facebook mx-4 hover:text-white cursor-pointer"
+          ></i>
+          <i
+            class="fa-brands fa-instagram mx-4 hover:text-white cursor-pointer"
+          ></i>
+          <i
+            class="fa-brands fa-youtube mx-4 hover:text-white cursor-pointer"
+          ></i>
+          <i
+            class="fa-brands fa-soundcloud mx-4 hover:text-white cursor-pointer"
+          ></i>
+          <i
+            class="fa-brands fa-mixcloud mx-4 hover:text-white cursor-pointer"
+          ></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
